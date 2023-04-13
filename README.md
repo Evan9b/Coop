@@ -12,7 +12,7 @@ My coop projects
   background-color: lightblue;
 }
 p1{
-  font-size: 100px;
+  font-size: 75px;
 }
 </style>
 <!-- Lign 18 aligns all the textboxs and labels to the center of the window-->
