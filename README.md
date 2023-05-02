@@ -1,4 +1,5 @@
 <!-- Lines 2-7 are just to create the base webpage, classifying it as html and giving the tab a title-->
+<!DOCTYPE html>
 <html>
 <head>
   <meta charset="utf-8">
@@ -20,7 +21,7 @@ p {
     font-size: 20px;
 }
 p1{
-  font-size: 70px;
+  font-size: 100px;
 }
 h4{
   font-size: 20px;
@@ -40,8 +41,7 @@ a{
 }
 </style>
 <!-- Lign 18 aligns all the textboxs and labels to the center of the window-->
-<body style="background-image: url('Backround.jpg');">
- 
+<body align = "center"style="background-image: url('Backround.jpg');" >
 <!-- Lines 20-25 are the tittle on the window and then the textarea with its name and charecter restriction-->
 
 <p1> Text Cypher & Un-Cypher</p1>
@@ -56,9 +56,9 @@ a{
  <!-- lines 27-34 are all of the lables and buttons that appear on my window and their respective ids to store the texts and numbers that are typed on them-->
  <button type="button" onclick="paste();this.onclick=null;"> Cypher...</button>
 </form>
-<div style="width:300px;height: 1px; float: left;">
+<div style="width:300px;height: -10px; float: left;">
 <h3 id="empty-space">The First value is: </h3>
-<h4 id="emptyspace">The Second value is: </h4>
+<!--<h4 id="emptyspace">The Second value is: </h4>-->
 </div>
 </div>
 <div style="width:450px;height:400px; float: right;">
@@ -68,10 +68,10 @@ a{
   <label for="a">Numerator:</label>
 <input type="text" id="a" name="a">
 <br>
-  <label for="b">Denominator:</label>
-  <input type="text" id="b" name="b">
+  <!--<label for="b">Denominator:</label>
+  <input type="text" id="b" name="b">-->
   <button type="button" onclick="fix()"> Un-Cypher...</button>
-  <h5 id="emptyspace1">Your decoded message is: </h5>
+  <h5 id="emptyspace1">Your decoded message is: </h5></b>
 </div>
 </div>
 </div>
@@ -102,13 +102,13 @@ var b= 150;
  console.log(decimal)
  //console.log(d)
  document.getElementById("empty-space").innerHTML += a
- document.getElementById("emptyspace").innerHTML += b
+ //document.getElementById("emptyspace").innerHTML += b
 }
 
 // This function takes the inputs from the denominator and numerator text boxes and turns c into a text instead of numbers by adding "" to it
 function fix(){
     var ay = document.getElementById("a").value
-    var be = document.getElementById("b").value
+    var be = 150
     var ce = (ay/be) + ""
     console.log(ce)
 //var cypher1 = {"99":" ", "01":"a","03":"b","04":"c","05":"d","06":"e","07":"f","08":"g","09":"h","11":"i","12":"j","13":"k","14":"l","15":"m","16":"n","17":"o","18":"p","19":"q","22":"r","23":"s","24":"t","25":"u","26":"v","27":"w","28":"x","29":"y","33":"z", "34":"A","35":"B","36":"C","37":"D","38":"E","39":"F","44":"G","45":"H","46":"I","47":"J","48":"K","49":"L","55":"M","56":"N","57":"O","58":"P","59":"Q","66":"R","67":"S","68":"T","69":"U","77":"V","78":"W","79":"X","88":"Y","89":"Z","02":"?" }
