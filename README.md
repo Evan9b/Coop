@@ -56,7 +56,7 @@ a{
  <!-- lines 27-34 are all of the lables and buttons that appear on my window and their respective ids to store the texts and numbers that are typed on them-->
  <button type="button" onclick="paste();this.onclick=null;"> Cypher...</button>
 </form>
-<div style="width:300px;height: -10px; float: left;">
+<div style="width:300px;height: 1px; float: left;">
 <h3 id="empty-space">The First value is: </h3>
 <h4 id="emptyspace">The Second value is: </h4>
 </div>
@@ -71,7 +71,7 @@ a{
   <label for="b">Denominator:</label>
   <input type="text" id="b" name="b">
   <button type="button" onclick="fix()"> Un-Cypher...</button>
-  <h5 id="emptyspace1">Your decoded message is: </h5></b>
+  <h5 id="emptyspace1">Your decoded message is: </h5>
 </div>
 </div>
 </div>
