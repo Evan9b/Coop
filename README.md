@@ -20,7 +20,7 @@ p {
     font-size: 20px;
 }
 p1{
-  font-size: 100px;
+  font-size: 80px;
 }
 h4{
   font-size: 20px;
@@ -71,7 +71,7 @@ a{
   <!--<label for="b">Denominator:</label>
   <input type="text" id="b" name="b">-->
   <button type="button" onclick="fix()"> Un-Cypher...</button>
-  <h5 id="emptyspace1">Your decoded message is: </h5></b>
+  <h5 id="emptyspace1">Your decoded message is: </h5>
 </div>
 </div>
 </div>
