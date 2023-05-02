@@ -40,8 +40,8 @@ a{
 }
 </style>
 <!-- Lign 18 aligns all the textboxs and labels to the center of the window-->
-<body
- <img src="Backround.jpg" alt="Backround"><img>>
+<body<img src="Backround.jpg" alt="Backround"><img>>
+ 
 <!-- Lines 20-25 are the tittle on the window and then the textarea with its name and charecter restriction-->
 
 <p1> Text Cypher & Un-Cypher</p1>
