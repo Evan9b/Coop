@@ -1,5 +1,4 @@
 <!-- Lines 2-7 are just to create the base webpage, classifying it as html and giving the tab a title-->
-<!DOCTYPE html>
 <html>
 <head>
   <meta charset="utf-8">
