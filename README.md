@@ -20,7 +20,7 @@ p {
     font-size: 20px;
 }
 p1{
-  font-size: 100px;
+  font-size: 70px;
 }
 h4{
   font-size: 20px;
