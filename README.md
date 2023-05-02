@@ -78,12 +78,6 @@ a{
 <!-- Openning the script so we can insert our java script code-->
 <!-- Lines 38-42 get the text from the text area and store it into a variable which is then run through a for loop that switches out the letter to its corresponding number defined in the cypher variable -->
 <script>
-("#txts").on('input', function() {
-    if($(this).val().length = 8) {
-       alert('you have reached a limit of 8 charecters');       
-    }
-});
-
   function paste(){
    let txt = document.getElementById("txts").value;
    //var cypher = {" ":"99","a":"01","b":"03","c":"04","d":"05","e":"06","f":"07","g":"08","h":"09","i":"11","j":"12","k":"13","l":"14","m":"15","n":"16","o":"17","p":"18","q":"19","r":"22","s":"23","t":"24","u":"25","v":"26","w":"27","x":"28","y":"29","z":"33","A":"34","B":"35","C":"36","D":"37","E":"38","F":"39","G":"44","H":"45","I":"46","J":"47","K":"48","L":"49","M":"55","N":"56","O":"57","P":"58","Q":"59","R":"66","S":"67","T":"68","U":"69","V":"77","W":"78","X":"79","Y":"88","Z":"89","?":"02"}
