@@ -40,7 +40,7 @@ a{
 }
 </style>
 <!-- Lign 18 aligns all the textboxs and labels to the center of the window-->
-<body background-image:url("Backround.jpg");>
+<body style="background-image: url('Backround.jpg');">
  
 <!-- Lines 20-25 are the tittle on the window and then the textarea with its name and charecter restriction-->
 
